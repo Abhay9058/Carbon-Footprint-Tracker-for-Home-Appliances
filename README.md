@@ -154,10 +154,22 @@ flutter pub get
 
 ## 🌐 Screenshots
 
-- Dashboard with carbon footprint overview
-- Appliance management with CRUD operations
-- Reports with interactive charts
-- Achievement badges system
+| Feature | Screenshot |
+|---------|------------|
+| Dashboard - Carbon footprint overview | ![Dashboard](screenshot_1.jpeg) |
+| Appliance Management | ![Appliances](screenshot_2.jpeg) |
+| Add New Appliance | ![Add Appliance](screenshot_3.jpeg) |
+| Usage Logging | ![Usage Log](screenshot_4.jpeg) |
+| Reports & Analytics | ![Reports](screenshot_5.jpeg) |
+| Eco Tips | ![Eco Tips](screenshot_6.jpeg) |
+| Achievements | ![Achievements](screenshot_7.jpeg) |
+| Settings | ![Settings](screenshot_8.jpeg) |
+| Login Screen | ![Login](screenshot_9.jpeg) |
+| Register Screen | ![Register](screenshot_10.jpeg) |
+| Onboarding | ![Onboarding](screenshot_11.jpeg) |
+| Dark Mode Dashboard | ![Dark Mode](screenshot_12.jpeg) |
+| Dark Mode Reports | ![Dark Reports](screenshot_13.jpeg) |
+| Dark Mode Settings | ![Dark Settings](screenshot_14.jpeg) |
 
 ---
 
