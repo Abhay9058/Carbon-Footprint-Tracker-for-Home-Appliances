@@ -12,6 +12,48 @@ A Flutter-based mobile application for tracking carbon footprint from home appli
 - **Achievements** - Gamification system with badges for eco-friendly habits
 - **Dark/Light Mode** - Theme toggle support
 
+## 🚀 Quick Start
+
+### Option 1: Install APK (Easiest - Android)
+1. Download the APK from `releases/app-release.apk`
+2. Install on your Android device
+3. Note: For full features, you need to run the backend locally
+
+### Option 2: Run on Web (Chrome)
+
+#### Step 1: Start the Backend
+Open a terminal and run:
+```bash
+cd backend
+pip install -r requirements.txt
+python main.py
+```
+The backend will start on `http://127.0.0.1:8001`
+
+#### Step 2: Run the Flutter App
+Open a **new terminal** (keep backend running) and run:
+```bash
+flutter run -d chrome
+```
+
+The app will open in your browser at `http://localhost:xxxx`
+
+### Option 3: Run on Android Emulator
+
+#### Step 1: Start the Backend
+```bash
+cd backend
+pip install -r requirements.txt
+python main.py
+```
+
+#### Step 2: Run Flutter
+```bash
+flutter run -d emulator
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -23,46 +65,33 @@ A Flutter-based mobile application for tracking carbon footprint from home appli
 
 ### Backend
 - **FastAPI** - Python web framework
-- **SQLite** - Database (via Python's sqlite3)
+- **SQLite** - Database
 - **Pydantic** - Data validation
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
-- Flutter SDK (3.2.0+)
-- Python 3.9+
-- Node.js (optional, for web build)
+## ⚠️ Important Notes
 
-### Installation
+### Backend Required
+The app **requires the backend server to be running** for full functionality:
+- User registration/login
+- Appliance management
+- Usage logging
+- Reports & analytics
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Abhay9058/Carbon-footrpint-for-Home-Appliances.git
-   cd Carbon-footrpint-for-Home-Appliances
-   ```
+Without the backend, the app will show a "Connection error".
 
-2. **Start the backend**
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python main.py
-   ```
-   Backend runs on `http://127.0.0.1:8000`
+### Running on Different Devices
 
-3. **Run the Flutter app**
-   ```bash
-   flutter pub get
-   flutter run
-   ```
+| Device | Backend IP | Backend Port |
+|--------|-----------|-------------|
+| Web (Chrome) | localhost | 8001 |
+| Android Emulator | 10.0.2.2 | 8001 |
+| Android Device | Your PC's local IP | 8001 |
 
-### Running on Chrome (Web)
-```bash
-# Terminal 1 - Backend
-python backend/main.py
+For Android device, find your PC's IP with `ipconfig` (Windows) or `ifconfig` (Mac/Linux).
 
-# Terminal 2 - Frontend
-flutter run -d chrome
-```
+---
 
 ## 📁 Project Structure
 
@@ -70,16 +99,19 @@ flutter run -d chrome
 ├── lib/                    # Flutter frontend
 │   ├── core/              # Theme, constants, utilities
 │   ├── models/            # Data models
-│   ├── providers/         # State management
-│   ├── screens/           # App screens
-│   ├── services/          # API services
-│   └── widgets/           # Reusable widgets
+│   ├── providers/        # State management
+│   ├── screens/          # App screens
+│   ├── services/         # API services
+│   └── widgets/          # Reusable widgets
 ├── backend/               # FastAPI backend
-│   ├── routes/           # API endpoints
-│   ├── schemas/          # Data schemas
-│   └── services/         # Database services
-└── web/                  # Web build files
+│   ├── routes/          # API endpoints
+│   ├── schemas/         # Data schemas
+│   └── services/       # Database services
+├── releases/             # Prebuilt APKs
+└── web/                 # Web build files
 ```
+
+---
 
 ## 📊 API Endpoints
 
@@ -88,6 +120,8 @@ flutter run -d chrome
 | GET | `/` | Health check |
 | GET | `/health` | API health status |
 | POST | `/calculate` | Calculate carbon footprint |
+| POST | `/user/register` | Register new user |
+| POST | `/user/login` | Login user |
 | GET | `/user/{user_id}` | Get user data |
 | GET | `/appliances/{user_id}` | Get user appliances |
 | POST | `/appliances/{user_id}` | Add new appliance |
@@ -95,12 +129,37 @@ flutter run -d chrome
 | POST | `/usage/{user_id}` | Create usage log |
 | GET | `/analytics/{user_id}` | Get analytics data |
 
+---
+
+## 🔧 Troubleshooting
+
+### Connection Error
+- Make sure the backend is running: `python backend/main.py`
+- Check firewall allows port 8001
+
+### Port Already in Use
+```bash
+# Find and kill the process using port 8001
+netstat -ano | findstr :8001
+taskkill /PID <PID> /F
+```
+
+### Flutter Dependencies
+```bash
+flutter clean
+flutter pub get
+```
+
+---
+
 ## 🌐 Screenshots
 
 - Dashboard with carbon footprint overview
 - Appliance management with CRUD operations
 - Reports with interactive charts
 - Achievement badges system
+
+---
 
 ## 📝 License
 
