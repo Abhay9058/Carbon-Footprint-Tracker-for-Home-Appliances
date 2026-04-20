@@ -154,22 +154,35 @@ flutter pub get
 
 ## 🌐 Screenshots
 
-| Feature | Screenshot |
-|---------|------------|
-| Dashboard - Carbon footprint overview | ![Dashboard](screenshot_1.jpeg) |
-| Appliance Management | ![Appliances](screenshot_2.jpeg) |
-| Add New Appliance | ![Add Appliance](screenshot_3.jpeg) |
-| Usage Logging | ![Usage Log](screenshot_4.jpeg) |
-| Reports & Analytics | ![Reports](screenshot_5.jpeg) |
-| Eco Tips | ![Eco Tips](screenshot_6.jpeg) |
-| Achievements | ![Achievements](screenshot_7.jpeg) |
-| Settings | ![Settings](screenshot_8.jpeg) |
-| Login Screen | ![Login](screenshot_9.jpeg) |
-| Register Screen | ![Register](screenshot_10.jpeg) |
-| Onboarding | ![Onboarding](screenshot_11.jpeg) |
-| Dark Mode Dashboard | ![Dark Mode](screenshot_12.jpeg) |
-| Dark Mode Reports | ![Dark Reports](screenshot_13.jpeg) |
-| Dark Mode Settings | ![Dark Settings](screenshot_14.jpeg) |
+### DASHBOARD
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 1 | Dashboard Overview | ![Dashboard 1](screenshot_1.jpeg) |
+| 2 | Dashboard Stats | ![Dashboard 2](screenshot_2.jpeg) |
+| 3 | Dashboard Charts | ![Dashboard 3](screenshot_3.jpeg) |
+| 4 | Eco Tips | ![Dashboard 4](screenshot_4.jpeg) |
+
+### ADD APPLIANCES
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 5 | Add Appliances | ![Add Appliances 1](screenshot_5.jpeg) |
+| 6 | Appliance List | ![Add Appliances 2](screenshot_6.jpeg) |
+
+### REPORTS & ANALYTICS
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 7 | Reports Overview | ![Reports 1](screenshot_7.jpeg) |
+| 8 | Analytics | ![Reports 2](screenshot_8.jpeg) |
+| 9 | Usage Logs | ![Reports 3](screenshot_9.jpeg) |
+| 10 | Achievement Badges | ![Reports 4](screenshot_10.jpeg) |
+
+### SETTINGS
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 11 | Settings | ![Settings 1](screenshot_11.jpeg) |
+| 12 | Dark Mode Dashboard | ![Settings 2](screenshot_12.jpeg) |
+| 13 | Dark Mode Reports | ![Settings 3](screenshot_13.jpeg) |
+| 14 | Dark Mode Settings | ![Settings 4](screenshot_14.jpeg) |
 
 ---
 
