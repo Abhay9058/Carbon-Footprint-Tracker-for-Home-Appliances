@@ -179,10 +179,10 @@ flutter pub get
 ### SETTINGS
 | # | Feature | Screenshot |
 |---|---------|------------|
-| 11 | Settings | ![Settings 1](screenshot_11.jpeg) |
-| 12 | Dark Mode Dashboard | ![Settings 2](screenshot_12.jpeg) |
-| 13 | Dark Mode Reports | ![Settings 3](screenshot_13.jpeg) |
-| 14 | Dark Mode Settings | ![Settings 4](screenshot_14.jpeg) |
+| 11 | ⚙️ Settings & Profile | ![Settings 1](screenshot_11.jpeg) |
+| 12 | 🌙 Dark Mode Dashboard | ![Settings 2](screenshot_12.jpeg) |
+| 13 | 🔌 Check Server Connection | ![Settings 3](screenshot_13.jpeg) |
+| 14 | 👋 User Data Log Out | ![Settings 4](screenshot_14.jpeg) |
 
 ---
 
