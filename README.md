@@ -152,6 +152,40 @@ flutter pub get
 
 ---
 
+## 🌐 Screenshots
+
+### DASHBOARD
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 1 | Dashboard Overview | ![Dashboard 1](screenshot_1.jpeg) |
+| 2 | Dashboard Stats | ![Dashboard 2](screenshot_2.jpeg) |
+| 3 | Dashboard Charts | ![Dashboard 3](screenshot_3.jpeg) |
+| 4 | Eco Tips | ![Dashboard 4](screenshot_4.jpeg) |
+
+### ADD APPLIANCES
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 5 | Add Appliances | ![Add Appliances 1](screenshot_5.jpeg) |
+| 6 | Appliance List | ![Add Appliances 2](screenshot_6.jpeg) |
+
+### REPORTS & ANALYTICS
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 7 | Reports Overview | ![Reports 1](screenshot_7.jpeg) |
+| 8 | Analytics | ![Reports 2](screenshot_8.jpeg) |
+| 9 | Usage Logs | ![Reports 3](screenshot_9.jpeg) |
+| 10 | Achievement Badges | ![Reports 4](screenshot_10.jpeg) |
+
+### SETTINGS
+| # | Feature | Screenshot |
+|---|---------|------------|
+| 11 | ⚙️ Settings & Profile | ![Settings 1](screenshot_11.jpeg) |
+| 12 | 🌙 Dark Mode Dashboard | ![Settings 2](screenshot_12.jpeg) |
+| 13 | 🔌 Check Server Connection | ![Settings 3](screenshot_13.jpeg) |
+| 14 | 👋 User Data Log Out | ![Settings 4](screenshot_14.jpeg) |
+
+---
+
 ---
 
 ## 📝 License
